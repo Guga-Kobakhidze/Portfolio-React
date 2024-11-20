@@ -46,6 +46,7 @@ export const StyledHeroContent = styled(Box)({
     fontSize: "100px",
     fontWeight: 700,
     lineHeight: "102px",
+    letterSpacing: "5px",
   },
 
   h1: {
@@ -67,7 +68,7 @@ export const StyledHeroContent = styled(Box)({
     fontSize: "18px",
     fontWeight: 400,
     lineHeight: "27px",
-    letterSpacing: "4%",
+    letterSpacing: "1px",
     maxWidth: "760px",
   },
 });

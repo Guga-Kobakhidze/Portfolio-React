@@ -29,7 +29,7 @@ export const StyledNavigation = styled(Box)({
       fontSize: "16px",
       fontWeight: 400,
       lineHeight: "24px",
-      letterSpacing: "4%",
+      letterSpacing: "1px",
       transition: "0.3s",
       cursor: "pointer",
 
