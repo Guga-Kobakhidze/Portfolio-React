@@ -16,10 +16,12 @@ const SkillsTitle = () => {
 
   return (
     <StyledSkillsTitle>
-      <Typography variant="h4" textAlign="center">
+      <Typography variant="h2" textAlign="center">
         {`${skillslist[currentIndex].title}`}
       </Typography>
-      <Typography variant="h1">SKILLS</Typography>
+      <Typography variant="h1" textAlign="center">
+        SKILLS
+      </Typography>
     </StyledSkillsTitle>
   );
 };

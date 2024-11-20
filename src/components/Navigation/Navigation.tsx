@@ -16,8 +16,9 @@ const Navigation = () => {
       <StyledNavigation>
         <Box component="ul">
           {navLinks.map((val) => (
-            <Box component="li">
+            <Box component="li" key={val.id}>
               <Link
+                href="#"
                 spy={true}
                 key={val.id}
                 to={val.link}

@@ -56,7 +56,7 @@ export const StyledSkillsTitle = styled(Box)({
   alignItems: "center",
   gap: "100px",
 
-  h4: {
+  h2: {
     color: "#fff",
     fontSize: "20px",
     fontWeight: "600",

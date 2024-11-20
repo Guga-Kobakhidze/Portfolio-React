@@ -28,6 +28,15 @@ export const skillslist = [
   { id: 13, img: reactquery, title: "React Query / React Hook Forms" },
 ];
 
+export const icons = [
+  { id: 1, src: html, alt: "html", position: [170, 321] },
+  { id: 2, src: css, alt: "css", position: [320, 162] },
+  { id: 3, src: react, alt: "react", position: [270, 580] },
+  { id: 4, src: next, alt: "next", position: [500, 280] },
+  { id: 5, src: mui, alt: "mui", position: [700, 200] },
+  { id: 6, src: redux, alt: "redux", position: [600, 500] },
+];
+
 export const navLinks = [
   { id: 1, link: "Home" },
   { id: 2, link: "Skills" },

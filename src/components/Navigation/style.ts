@@ -25,16 +25,17 @@ export const StyledNavigation = styled(Box)({
 
     a: {
       fontFamily: "Manrope-Regular",
-      color: "#fff",
+      color: "#E0E0E0",
       fontSize: "16px",
       fontWeight: 400,
       lineHeight: "24px",
       letterSpacing: "1px",
       transition: "0.3s",
       cursor: "pointer",
+      textDecoration: "none",
 
       "&:hover": {
-        color: "#1E7E99",
+        color: "#E0E0E0",
       },
     },
   },
