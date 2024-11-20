@@ -25,7 +25,7 @@ const Navigation = () => {
                 smooth={true}
                 duration={500}
                 onClick={() => onSelect(val.id)}
-                offset={val.link === "Home" ? 0 : 50}
+                offset={-50}
                 style={{ color: active === val.id ? "#1E7E99" : "" }}
               >
                 {val.link}

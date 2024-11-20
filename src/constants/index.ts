@@ -44,3 +44,9 @@ export const navLinks = [
   { id: 4, link: "Projects" },
   { id: 5, link: "Contact" },
 ];
+
+export const rates = [
+  { id: 1, rate: 2, symbol: "+", title: "years of experience" },
+  { id: 2, rate: 8, symbol: "+", title: "Certificates" },
+  { id: 3, rate: 100, symbol: "%", title: "Quality" },
+];

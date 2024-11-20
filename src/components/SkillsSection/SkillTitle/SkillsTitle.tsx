@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
-import { StyledSkillsTitle } from "./style";
 import { Typography } from "@mui/material";
-import { skillslist } from "../../constants";
+import { skillslist } from "../../../constants";
+import { StyledSkillsTitle } from "../style";
+import { useEffect, useState } from "react";
 
 const SkillsTitle = () => {
   const [currentIndex, setCurrentIndex] = useState<number>(0);

@@ -1,9 +1,9 @@
-import { Typography } from "@mui/material";
-import { StyledHeroContent, StyledHeroWrapper } from "./style";
-import HeroSkills from "./HeroSkills";
-import TagElement from "../TagElement/TagElement";
 import h1 from "../../assets/images/h1.svg";
 import paragraph from "../../assets/images/paragraph.svg";
+import HeroSkills from "./HeroSkills";
+import TagElement from "../TagElement";
+import { Typography } from "@mui/material";
+import { StyledHeroContent, StyledHeroWrapper } from "./style";
 
 const HeroSection = () => {
   return (
