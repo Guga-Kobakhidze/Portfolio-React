@@ -1,5 +1,14 @@
+import "./App.css";
+import Header from "./components/Header/Header";
+import MainPage from "./pages/MainPage";
+
 const App = () => {
-  return <div></div>;
+  return (
+    <>
+      <Header />
+      <MainPage />
+    </>
+  );
 };
 
 export default App;
