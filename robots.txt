@@ -1,0 +1,7 @@
+# Allow all bots
+User-agent: *
+Disallow: /private/ # Block the /private/ directory
+Allow: /public/
+
+# Specify your sitemap
+Sitemap: https://www.skillwill.com
