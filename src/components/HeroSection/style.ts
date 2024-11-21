@@ -1,6 +1,11 @@
 import { Box, styled } from "@mui/material";
 import heroBg from "../../assets/images/hero-bg.png";
 
+const StyledImage = {
+  userSelect: "none",
+  pointerEvents: "none",
+};
+
 export const StyledHeroWrapper = styled(Box)({
   position: "relative",
   padding: "200px 0px 0px 144px",
@@ -21,6 +26,7 @@ export const StyledHeroSection = styled(Box)({
   zIndex: 2,
 
   ".gradient": {
+    ...StyledImage,
     position: "absolute",
     right: 0,
     zIndex: 1,

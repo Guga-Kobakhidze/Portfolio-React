@@ -6,7 +6,7 @@ import { Grid2 } from "@mui/material";
 const Experience = () => {
   return (
     <Grid2
-      px={18}
+      px={{ xs: 15, xl: 28 }}
       spacing={3}
       container
       size={12}

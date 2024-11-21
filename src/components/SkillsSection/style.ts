@@ -1,5 +1,10 @@
 import { Box, keyframes, styled } from "@mui/material";
 
+const StyledImage = {
+  userSelect: "none",
+  pointerEvents: "none",
+};
+
 const rotate = keyframes`
   0% {
     transform: rotate(0deg);
@@ -43,6 +48,7 @@ export const StyledInnerBox = styled(Box)<{ angle: number }>(({ angle }) => ({
     width: "55px",
     height: "55px",
     objectFit: "fill",
+    ...StyledImage,
   },
 }));
 
