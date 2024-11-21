@@ -1,6 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import { StyledHeader, StyledOpenToWork } from "./style";
 import circle from "../../assets/images/circle.svg";
+import Navigation from "../Navigation";
 
 const Header = () => {
   return (
@@ -12,6 +13,7 @@ const Header = () => {
         </Box>
         <Typography variant="h4">Open to Work</Typography>
       </StyledOpenToWork>
+      <Navigation />
     </StyledHeader>
   );
 };

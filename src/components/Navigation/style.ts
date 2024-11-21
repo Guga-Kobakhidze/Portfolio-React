@@ -4,7 +4,10 @@ export const StyledWrapper = styled(Box)({
   display: "flex",
   justifyContent: "center",
   marginBottom: "40px",
-  position: "relative",
+  position: "fixed",
+  top: "90%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
   zIndex: 5,
 });
 
@@ -12,8 +15,8 @@ export const StyledNavigation = styled(Box)({
   display: "inline-block",
   borderRadius: "32px",
   padding: "1.5px",
-  backgroundImage:
-    "conic-gradient(from 100.88deg at 53.1% 50%, #3B3B3B -92.55deg, #1E7E99 16.8deg, #3B3B3B 92.36deg, #1E7E99 208.1deg, #3B3B3B 267.45deg, #1E7E99 376.8deg)",
+  border: "1.5px solid #1E7E99",
+  position: "relative",
 
   ul: {
     display: "flex",
@@ -21,7 +24,7 @@ export const StyledNavigation = styled(Box)({
     gap: "40px",
     padding: "10px 20px",
     borderRadius: "32px",
-    backgroundColor: "#121212",
+    backgroundColor: "#121212d9",
 
     a: {
       fontFamily: "Manrope-Regular",

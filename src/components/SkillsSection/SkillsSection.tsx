@@ -1,4 +1,4 @@
-import SkillsTitle from "./SkillsTitle";
+import SkillsTitle from "./SkillTitle";
 import { Box } from "@mui/material";
 import { skillslist } from "../../constants";
 import { RotatingContainer, StyledInnerBox, StyledSkillsBox } from "./style";

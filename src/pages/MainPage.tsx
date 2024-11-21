@@ -1,17 +1,15 @@
-import { Box } from "@mui/material";
-import SkillsSection from "../components/SkillsSection/SkillsSection";
-import Navigation from "../components/Navigation/Navigation";
-import HeroSection from "../components/HeroSection/HeroSection";
-import Experience from "../components/Experience/Experience";
+import SkillsSection from "../components/SkillsSection";
+import HeroSection from "../components/HeroSection";
+import Experience from "../components/Experience";
+import React from "react";
 
 const MainPage = () => {
   return (
-    <Box>
+    <React.Fragment>
       <HeroSection />
-      <Navigation />
       <SkillsSection />
       <Experience />
-    </Box>
+    </React.Fragment>
   );
 };
 

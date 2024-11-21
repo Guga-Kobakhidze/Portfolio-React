@@ -1,7 +1,7 @@
-import heroGradient from "../../assets/images/hero-gradient.png";
+import heroGradient from "../../../assets/images/hero-gradient.png";
 import { Box } from "@mui/material";
-import { icons } from "../../constants";
-import { StyledGradientBox, StyledHeroSection } from "./style";
+import { icons } from "../../../constants";
+import { StyledGradientBox, StyledHeroSection } from "../style";
 
 const HeroSkills = () => {
   return (

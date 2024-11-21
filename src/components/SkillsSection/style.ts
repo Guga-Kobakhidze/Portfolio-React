@@ -61,6 +61,7 @@ export const StyledSkillsTitle = styled(Box)({
     fontSize: "20px",
     fontWeight: "600",
     lineHeight: "27.32px",
+    letterSpacing: "1px",
   },
 
   h1: {

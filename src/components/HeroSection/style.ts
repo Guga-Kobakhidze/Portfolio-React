@@ -3,9 +3,8 @@ import heroBg from "../../assets/images/hero-bg.png";
 
 export const StyledHeroWrapper = styled(Box)({
   position: "relative",
-  height: "70vh",
-
   padding: "200px 0px 0px 144px",
+  marginBottom: "180px",
 });
 
 export const StyledHeroSection = styled(Box)({
