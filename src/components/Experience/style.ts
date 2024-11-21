@@ -1,5 +1,10 @@
 import { Grid2, styled, Typography } from "@mui/material";
 
+export const StyledImage = {
+  userSelect: "none",
+  pointerEvents: "none",
+};
+
 const styles = {
   border: "0.5px solid #1E7E9933",
   backgroundColor: "#1C1C1C",
@@ -10,6 +15,7 @@ export const StyledRateBox = styled(Grid2)({
   ...styles,
   justifyItems: "center",
   alignContent: "center",
+  textAlign: "center",
   padding: "32px 72px",
   height: "170px",
 
@@ -55,7 +61,7 @@ export const StyledBiography = styled(Grid2)({
     fontWeight: 400,
     lineHeight: "24px",
     letterSpacing: "1px",
-    maxWidth: "360px",
+    maxWidth: "340px",
     color: "rgba(255, 255, 255, 0.8)",
     marginBottom: "40px",
   },
@@ -73,10 +79,11 @@ export const StyledBiography = styled(Grid2)({
 
   ".profile-img": {
     position: "absolute",
-    bottom: "2px",
-    right: "-40px",
+    bottom: "0px",
+    right: "-20px",
     objectFit: "cover",
     borderRadius: "50%",
+    ...StyledImage,
   },
 });
 

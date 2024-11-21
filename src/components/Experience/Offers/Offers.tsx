@@ -1,4 +1,4 @@
-import { StyledOffersBox } from "../style";
+import { StyledImage, StyledOffersBox } from "../style";
 import { Box, Grid2, Typography } from "@mui/material";
 import simpleCodeImg from "../../../assets/images/simple-code.svg";
 import responsiveDesignImg from "../../../assets/images/responsive.svg";
@@ -10,6 +10,7 @@ const Offers = () => {
         <Typography variant="h2">Responsive Design</Typography>
         <Box
           component="img"
+          sx={StyledImage}
           src={responsiveDesignImg}
           alt="responsive-design"
         />
@@ -18,6 +19,7 @@ const Offers = () => {
         <Typography variant="h2">Simple and Efficient Code</Typography>
         <Box
           component="img"
+          sx={StyledImage}
           src={simpleCodeImg}
           alt="simple-and-efficient-code"
         />

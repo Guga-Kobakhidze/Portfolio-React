@@ -14,7 +14,6 @@ export const StyledWrapper = styled(Box)({
 export const StyledNavigation = styled(Box)({
   display: "inline-block",
   borderRadius: "32px",
-  padding: "1.5px",
   border: "1.5px solid #1E7E99",
   position: "relative",
 
@@ -22,9 +21,11 @@ export const StyledNavigation = styled(Box)({
     display: "flex",
     alignItems: "center",
     gap: "40px",
-    padding: "10px 20px",
+    padding: "15px 30px",
     borderRadius: "32px",
-    backgroundColor: "#121212d9",
+    backgroundColor: "transparent",
+    backdropFilter: "blur(20px)",
+    Height: "100%",
 
     a: {
       fontFamily: "Manrope-Regular",
@@ -38,7 +39,7 @@ export const StyledNavigation = styled(Box)({
       textDecoration: "none",
 
       "&:hover": {
-        color: "#E0E0E0",
+        color: "#1E7E99",
       },
     },
   },
