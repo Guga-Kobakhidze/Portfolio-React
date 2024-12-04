@@ -68,13 +68,15 @@ export const StyledSkillsTitle = styled(Box)({
     fontWeight: "600",
     lineHeight: "27.32px",
     letterSpacing: "1px",
+    height: "50px",
   },
 
   h1: {
     fontSize: "128px",
     color: "transparent",
-    WebkitTextStroke: "1px #1C1C1C",
+    WebkitTextStroke: "1px rgba(255, 255, 255, 0.4)",
     fontWeight: 700,
     lineHeight: "174.85px",
+    letterSpacing: "3px",
   },
 });

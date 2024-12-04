@@ -13,7 +13,7 @@ export const StyledWrapper = styled(Box)({
 
 export const StyledNavigation = styled(Box)({
   display: "inline-block",
-  borderRadius: "32px",
+  borderRadius: "4px",
   border: "1.5px solid #1E7E99",
   position: "relative",
 
