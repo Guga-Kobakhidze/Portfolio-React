@@ -4,7 +4,6 @@ import Experience from "../components/Experience";
 import React from "react";
 
 const MainPage = () => {
-  console.log("here");
   return (
     <React.Fragment>
       <HeroSection />
