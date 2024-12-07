@@ -12,6 +12,11 @@ import github from "../assets/images/github.svg";
 import javascript from "../assets/images/javascript.svg";
 import reactquery from "../assets/images/reactquery.svg";
 
+export const FUTURE_ROUTER = {
+  v7_relativeSplatPath: true,
+  v7_startTransition: true,
+};
+
 export const skillslist = [
   { id: 1, img: html, title: "HTML / HTML5" },
   { id: 2, img: css, title: "CSS / CSS3" },
