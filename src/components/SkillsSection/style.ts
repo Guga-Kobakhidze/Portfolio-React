@@ -52,6 +52,22 @@ export const StyledInnerBox = styled(Box)<{ angle: number }>(({ angle }) => ({
   },
 }));
 
+export const StyledSwiperBox = styled(Box)({
+  width: "120px",
+  height: "120px",
+  borderRadius: "12px",
+  backgroundColor: "#1b1b1b",
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  "& > img": {
+    width: "55px",
+    height: "55px",
+    objectFit: "fill",
+    ...StyledImage,
+  },
+});
+
 export const StyledSkillsTitle = styled(Box)({
   position: "absolute",
   left: "50%",

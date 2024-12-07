@@ -22,7 +22,7 @@ export const StyledNavigation = styled(Box)({
     alignItems: "center",
     gap: "40px",
     padding: "15px 30px",
-    borderRadius: "32px",
+    borderRadius: "2px",
     backgroundColor: "transparent",
     backdropFilter: "blur(20px)",
     Height: "100%",
