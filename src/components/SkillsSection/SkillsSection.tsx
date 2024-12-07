@@ -1,7 +1,7 @@
-import { Box, useMediaQuery, useTheme } from "@mui/material";
 import SkillSwiper from "./SkillSwiper";
 import SkillAnimation from "./SkillAnimation";
 import { skillslist } from "../../constants";
+import { Box, useMediaQuery, useTheme } from "@mui/material";
 
 const SkillsSection = () => {
   const { breakpoints } = useTheme();
