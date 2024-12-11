@@ -12,6 +12,11 @@ import github from "../assets/images/github.svg";
 import javascript from "../assets/images/javascript.svg";
 import reactquery from "../assets/images/reactquery.svg";
 
+export const FUTURE_ROUTER = {
+  v7_relativeSplatPath: true,
+  v7_startTransition: true,
+};
+
 export const skillslist = [
   { id: 1, img: html, title: "HTML / HTML5" },
   { id: 2, img: css, title: "CSS / CSS3" },
@@ -49,4 +54,33 @@ export const rates = [
   { id: 1, rate: 2, symbol: "+", title: "years of experience" },
   { id: 2, rate: 8, symbol: "+", title: "Certificates" },
   { id: 3, rate: 100, symbol: "%", title: "Quality" },
+];
+
+export const aboutMe = [
+  "I handle every step of the <b>development process</b>, from concept to deployment, ensuring projects are <b>scalable</b>, <b>efficient</b>, and <b>user-focused</b>.",
+  "My goal is to create high-quality <b>solutions</b> that align with business objectives while addressing real <b>user needs</b>",
+  "I ensure that the final product is not just a piece of software but a valuable tool that drives growth and enhances <b>user satisfaction</b>.",
+];
+
+export const workExperiance = [
+  {
+    title:
+      "<strong>Making Science Sweeft</strong> - <b>React Developer</stong>",
+    link: "https://www.makingscience.com/",
+  },
+  {
+    title:
+      "<strong>Skillwill Neo University</strong> - <b>Frontend Mentor</stong>",
+    link: "https://www.skillwill.com/",
+  },
+  {
+    title: "<strong>Meama</strong> - <b>Space Manager</stong>",
+    link: "https://www.meama.ge",
+  },
+];
+
+export const platforms = [
+  { title: "LinkedIn", link: "https://www.linkedin.com" },
+  { title: "Github", link: "https://github.com/Guga-Kobakhidze" },
+  { title: "Fiver", link: "https://www.fiverr.com/users/kobakhidzeguga/" },
 ];

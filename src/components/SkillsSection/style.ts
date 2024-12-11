@@ -52,6 +52,22 @@ export const StyledInnerBox = styled(Box)<{ angle: number }>(({ angle }) => ({
   },
 }));
 
+export const StyledSwiperBox = styled(Box)({
+  width: "120px",
+  height: "120px",
+  borderRadius: "12px",
+  backgroundColor: "#1b1b1b",
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  "& > img": {
+    width: "55px",
+    height: "55px",
+    objectFit: "fill",
+    ...StyledImage,
+  },
+});
+
 export const StyledSkillsTitle = styled(Box)({
   position: "absolute",
   left: "50%",
@@ -68,13 +84,15 @@ export const StyledSkillsTitle = styled(Box)({
     fontWeight: "600",
     lineHeight: "27.32px",
     letterSpacing: "1px",
+    height: "50px",
   },
 
   h1: {
     fontSize: "128px",
     color: "transparent",
-    WebkitTextStroke: "1px #1C1C1C",
+    WebkitTextStroke: "1px rgba(255, 255, 255, 0.4)",
     fontWeight: 700,
     lineHeight: "174.85px",
+    letterSpacing: "3px",
   },
 });

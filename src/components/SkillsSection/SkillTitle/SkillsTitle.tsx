@@ -20,7 +20,7 @@ const SkillsTitle = () => {
         {`${skillslist[currentIndex].title}`}
       </Typography>
       <Typography variant="h1" textAlign="center">
-        SKILLS
+        Skills
       </Typography>
     </StyledSkillsTitle>
   );
