@@ -1,11 +1,13 @@
-import SkillsSection from "../components/SkillsSection";
-import HeroSection from "../components/HeroSection";
-import Experience from "../components/Experience";
 import React from "react";
+import Header from "../components/Header";
+import Experience from "../components/Experience";
+import HeroSection from "../components/HeroSection";
+import SkillsSection from "../components/SkillsSection";
 
 const MainPage = () => {
   return (
     <React.Fragment>
+      <Header />
       <HeroSection />
       <SkillsSection />
       <Experience />

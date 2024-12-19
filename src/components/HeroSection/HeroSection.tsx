@@ -17,10 +17,11 @@ const HeroSection = () => {
       <StyledHeroContent>
         <TagElement img={paragraph} alt="Paragraph" />
         <Typography variant="body1">
-          I am creative developer based in Georgia with years of experience in
-          front-end development. I turn ideas into dynamic digital experiences,
-          crafting intuitive and engaging interfaces that meets todays meets and
-          adapt with tomorrow’s challenges
+          I am a creative developer based in Georgia with extensive experience
+          in front-end development. I specialize in transforming ideas into
+          dynamic digital experiences by designing intuitive, engaging, and
+          responsive interfaces. My work bridges today’s needs with tomorrow’s
+          possibilities, ensuring every project is future-ready and impactful.
         </Typography>
       </StyledHeroContent>
     </StyledHeroWrapper>

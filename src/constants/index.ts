@@ -57,9 +57,9 @@ export const rates = [
 ];
 
 export const aboutMe = [
-  "I handle every step of the <b>development process</b>, from concept to deployment, ensuring projects are <b>scalable</b>, <b>efficient</b>, and <b>user-focused</b>.",
-  "My goal is to create high-quality <b>solutions</b> that align with business objectives while addressing real <b>user needs</b>",
-  "I ensure that the final product is not just a piece of software but a valuable tool that drives growth and enhances <b>user satisfaction</b>.",
+  "As a <b>Frontend Developer</b>, I manage the entire development <b>lifecycle—from concept</b> to <b>deployment—crafting scalable</b>, <b>efficient</b>, and <b>user-centric solutions</b>.",
+  "I focus on aligning high-quality development with <b>business goals</b>, delivering applications that address real <b>user needs</b>.",
+  "My aim is to create <b>software</b> that not only functions seamlessly but also drives growth and elevates <b>user satisfaction</b>.",
 ];
 
 export const workExperiance = [

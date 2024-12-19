@@ -6,7 +6,7 @@ import ProjectsPage from "../pages/ProjectsPage";
 const Router = () => {
   return (
     <Routes>
-      <Route path="/" element={<MainPage />} />
+      <Route index={true} element={<MainPage />} />
       <Route path="projects" element={<ProjectsPage />} />
       <Route path="*" element={<ErrorPage />} />
     </Routes>

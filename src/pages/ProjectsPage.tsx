@@ -1,4 +1,5 @@
 import { Box, Typography } from "@mui/material";
+import Header from "../components/Header";
 
 const ProjectsPage = () => {
   return (
@@ -8,6 +9,7 @@ const ProjectsPage = () => {
       alignItems="center"
       height="100vh"
     >
+      <Header />
       <Typography variant="h1">Projects</Typography>
     </Box>
   );
