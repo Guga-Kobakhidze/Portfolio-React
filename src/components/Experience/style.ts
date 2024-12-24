@@ -64,25 +64,27 @@ export const StyledOrderedList = styled(Box)({
 
 // ExperianceBOx
 
-export const StyledExperiance = styled(Box)({
-  position: "absolute",
-  color: "#fff",
-  minHeight: "230px",
-  backgroundColor: "#191919",
-  border: "1px solid #444444",
+export const StyledExperiance = styled(Box)<{ isabsolute: string | null }>(
+  ({ isabsolute }) => ({
+    position: isabsolute ? "absolute" : "unset",
+    color: "#fff",
+    minHeight: "230px",
+    backgroundColor: "#121212",
+    border: "1px solid #444444",
 
-  ".content": {
-    padding: "16px",
-    display: "flex",
-    gap: "32px",
-    backgroundColor: "#191919",
-    borderBottom: "1px solid #444444",
-    justifyContent: "space-between",
-
-    ".image-box": {
+    ".content": {
+      padding: "16px",
       display: "flex",
-      alignItems: "center",
-      gap: "20px",
+      gap: "32px",
+      backgroundColor: "#191919",
+      borderBottom: "1px solid #444444",
+      justifyContent: "space-between",
+
+      ".image-box": {
+        display: "flex",
+        alignItems: "center",
+        gap: "20px",
+      },
     },
-  },
-});
+  })
+);

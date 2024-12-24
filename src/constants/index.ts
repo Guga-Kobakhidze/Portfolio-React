@@ -84,3 +84,12 @@ export const platforms = [
   { title: "Github", link: "https://github.com/Guga-Kobakhidze" },
   { title: "Fiver", link: "https://www.fiverr.com/users/kobakhidzeguga/" },
 ];
+
+export const options = [
+  { id: 1, label: "< 1K", value: "< 1k" },
+  { id: 2, label: "1-5K", value: "1-5k" },
+  { id: 3, label: "5-10K", value: "5-10K" },
+  { id: 4, label: "10-15K", value: "10-15K" },
+  { id: 5, label: "15-20K", value: "15-20K" },
+  { id: 6, label: "> 20K", value: "> 20K" },
+];

@@ -9,11 +9,17 @@ interface ExperianceBoxProps {
   children: ReactNode;
   title: string;
   sx?: Record<string, string>;
+  isabsolute: string | null;
 }
 
-const ExperianceBox = ({ children, title, sx }: ExperianceBoxProps) => {
+const ExperianceBox = ({
+  children,
+  title,
+  isabsolute,
+  sx,
+}: ExperianceBoxProps) => {
   return (
-    <StyledExperiance sx={{ ...sx }}>
+    <StyledExperiance isabsolute={isabsolute ? "true" : null} sx={{ ...sx }}>
       <Box className="content">
         <Typography
           fontWeight={500}

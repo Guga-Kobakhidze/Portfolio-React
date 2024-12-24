@@ -16,7 +16,7 @@ const Experience = () => {
       container
       size={12}
     >
-      <ExperianceBox title="About-Me" sx={{ left: "0" }}>
+      <ExperianceBox isabsolute="true" title="About-Me" sx={{ left: "0" }}>
         <StyledOrderedList>
           <Box className="about" component="ol">
             {aboutMe.map((list, index) => (
@@ -30,7 +30,11 @@ const Experience = () => {
           </Box>
         </StyledOrderedList>
       </ExperianceBox>
-      <ExperianceBox title="Portrait" sx={{ top: "150px", right: "40px" }}>
+      <ExperianceBox
+        isabsolute="true"
+        title="Portrait"
+        sx={{ top: "150px", right: "40px" }}
+      >
         <Box width={304} height={308}>
           <Box
             component="img"
@@ -41,7 +45,11 @@ const Experience = () => {
           />
         </Box>
       </ExperianceBox>
-      <ExperianceBox title="Where-I-Work" sx={{ bottom: "0", left: "40px" }}>
+      <ExperianceBox
+        isabsolute="true"
+        title="Where-I-Work"
+        sx={{ bottom: "0", left: "40px" }}
+      >
         <StyledOrderedList>
           <Box component="ol">
             {workExperiance.map((work, index) => (
@@ -56,7 +64,11 @@ const Experience = () => {
           </Box>
         </StyledOrderedList>
       </ExperianceBox>
-      <ExperianceBox title="Me-Online" sx={{ bottom: "-20px", left: "450px" }}>
+      <ExperianceBox
+        isabsolute="true"
+        title="Me-Online"
+        sx={{ bottom: "-20px", left: "450px" }}
+      >
         <StyledOrderedList>
           <Box component="ol">
             {platforms.map((platform, index) => (
