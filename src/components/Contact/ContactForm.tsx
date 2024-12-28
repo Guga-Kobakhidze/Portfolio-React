@@ -63,7 +63,12 @@ const ContactForm = () => {
               error={formState.errors.budget?.message}
             />
           </Grid2>
-          <Button variant="outlined" size="medium" type="submit">
+          <Button
+            size="medium"
+            type="submit"
+            variant="outlined"
+            disabled={loading}
+          >
             {loading ? "Loading" : "Send"}
           </Button>
         </Grid2>
