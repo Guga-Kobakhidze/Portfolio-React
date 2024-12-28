@@ -43,11 +43,11 @@ export const icons = [
 ];
 
 export const navLinks = [
-  { id: 1, link: "Home" },
-  { id: 2, link: "Skills" },
-  { id: 3, link: "Experience" },
-  { id: 4, link: "Projects" },
-  { id: 5, link: "Contact" },
+  { id: 1, link: "Home", path: "/" },
+  { id: 2, link: "Skills", path: "/" },
+  { id: 3, link: "Experience", path: "/" },
+  { id: 4, link: "Projects", path: "/projects" },
+  { id: 5, link: "Contact", path: "/" },
 ];
 
 export const rates = [

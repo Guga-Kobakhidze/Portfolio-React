@@ -33,7 +33,7 @@ const Experience = () => {
       <ExperianceBox
         isabsolute="true"
         title="Portrait"
-        sx={{ top: "150px", right: "40px" }}
+        sx={{ top: "150px", right: "60px" }}
       >
         <Box width={304} height={308}>
           <Box
@@ -48,7 +48,7 @@ const Experience = () => {
       <ExperianceBox
         isabsolute="true"
         title="Where-I-Work"
-        sx={{ bottom: "0", left: "40px" }}
+        sx={{ bottom: "0", left: "20px" }}
       >
         <StyledOrderedList>
           <Box component="ol">
