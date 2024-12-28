@@ -3,7 +3,7 @@ import { lazy } from "react";
 
 const MainPage = lazy(() => import("../pages/MainPage"));
 const ProjectsPage = lazy(() => import("../pages/ProjectsPage"));
-const ErrorPage = lazy(() => import("../pages/ErrorPage"));
+const ErrorPage = lazy(() => import("../pages/404"));
 
 const Router = () => {
   return (
