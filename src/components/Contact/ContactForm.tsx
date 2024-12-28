@@ -10,24 +10,23 @@ import TextFieldElement from "../../shared/TexxtFieldElement/TextFieldElement";
 import CustomFormProvider from "../../provider/FormProvider";
 import RadioGroupComponent from "../../shared/RadioGroupElement/RadioGrouElement";
 
+const serviceId = import.meta.env.VITE_API_SERVICE_ID;
+const templateId = import.meta.env.VITE_API_TEMPLATE_ID;
+const publicKey = import.meta.env.VITE_API_PUBLIC_KEY;
+
 const ContactForm = () => {
   const methods = useForm({
     resolver: yupResolver(schema),
     defaultValues: defaultValues,
   });
 
-  const { handleSubmit, control, formState } = methods;
+  const { handleSubmit, control, formState, reset } = methods;
 
   const submit = (data: IContactForm) => {
-    console.log(data);
-    const serviceId = import.meta.env.VITE_API_SERVICE_ID;
-    const templateId = import.meta.env.VITE_API_TEMPLATE_ID;
-    const publicKey = import.meta.env.VITE_API_PUBLIC_KEY;
-
     emailjs
       .send(serviceId, templateId, data, publicKey)
-      .then((response) => console.log("Email sent Successfully", response))
-      .catch((error) => console.log(error));
+      .catch((error) => console.error(error))
+      .finally(() => reset());
   };
 
   return (

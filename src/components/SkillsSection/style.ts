@@ -76,7 +76,7 @@ export const StyledSkillsTitle = styled(Box)({
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
-  gap: "100px",
+  gap: "80px",
 
   h2: {
     color: "#fff",
