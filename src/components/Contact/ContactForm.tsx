@@ -9,12 +9,15 @@ import ExperianceBox from "../../features/ExperianceBox";
 import TextFieldElement from "../../shared/TexxtFieldElement/TextFieldElement";
 import CustomFormProvider from "../../provider/FormProvider";
 import RadioGroupComponent from "../../shared/RadioGroupElement/RadioGrouElement";
+import { useState } from "react";
 
 const serviceId = import.meta.env.VITE_API_SERVICE_ID;
 const templateId = import.meta.env.VITE_API_TEMPLATE_ID;
 const publicKey = import.meta.env.VITE_API_PUBLIC_KEY;
 
 const ContactForm = () => {
+  const [loading, setLoading] = useState<boolean>(false);
+
   const methods = useForm({
     resolver: yupResolver(schema),
     defaultValues: defaultValues,
@@ -23,10 +26,14 @@ const ContactForm = () => {
   const { handleSubmit, control, formState, reset } = methods;
 
   const submit = (data: IContactForm) => {
+    setLoading(true);
     emailjs
       .send(serviceId, templateId, data, publicKey)
       .catch((error) => console.error(error))
-      .finally(() => reset());
+      .finally(() => {
+        reset();
+        setLoading(false);
+      });
   };
 
   return (
@@ -57,7 +64,7 @@ const ContactForm = () => {
             />
           </Grid2>
           <Button variant="outlined" size="medium" type="submit">
-            Send
+            {loading ? "Loading" : "Send"}
           </Button>
         </Grid2>
       </CustomFormProvider>
