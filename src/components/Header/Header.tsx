@@ -5,7 +5,7 @@ import Navigation from "../Navigation";
 
 const Header = () => {
   return (
-    <StyledHeader>
+    <StyledHeader as="header">
       <Typography variant="h3">Guga Kobakhidze</Typography>
       <StyledOpenToWork>
         <Box className="img-animate">

@@ -1,7 +1,13 @@
 import { Box, Button } from "@mui/material";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
+import data from "../../data/projects.json";
 
 const ProjectDetailsPage = () => {
+  const { id } = useParams();
+  const projectDetails = data.find((project) => project.id.toString() === id);
+
+  console.log(projectDetails);
+
   const navigate = useNavigate();
   return (
     <Box

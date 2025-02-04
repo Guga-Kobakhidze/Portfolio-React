@@ -11,6 +11,8 @@ import tailwind from "../assets/images/tailwindcss.svg";
 import github from "../assets/images/github.svg";
 import javascript from "../assets/images/javascript.svg";
 import reactquery from "../assets/images/reactquery.svg";
+import hookforms from "../assets/images/hookforms.svg";
+import sockets from "../assets/images/Socket.svg";
 
 export const FUTURE_ROUTER = {
   v7_relativeSplatPath: true,
@@ -30,7 +32,9 @@ export const skillslist = [
   { id: 10, img: tailwind, title: "Tailwind" },
   { id: 11, img: github, title: "Github / Bitbucket" },
   { id: 12, img: bootstrap, title: "Bootstrap" },
-  { id: 13, img: reactquery, title: "React Query / React Hook Forms" },
+  { id: 13, img: reactquery, title: "React Query" },
+  { id: 14, img: hookforms, title: "React Hook Forms" },
+  { id: 15, img: sockets, title: "Sockets" },
 ];
 
 export const icons = [
