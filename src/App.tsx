@@ -1,7 +1,7 @@
 import "./App.css";
-import Router from "./router/Router";
 import { FUTURE_ROUTER } from "./constants";
 import { BrowserRouter } from "react-router-dom";
+import Router from "./Routes";
 import CustomThemeProvider from "./provider/ThemeProvider";
 
 const App = () => {

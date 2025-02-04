@@ -1,12 +1,19 @@
 import { Box } from "@mui/material";
-import Header from "../components/Header";
 import { Outlet } from "react-router-dom";
+import Header from "../components/Header";
+import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
+import useScrollToTop from "../hooks/useScrollToTop";
 
 const Layout = () => {
+  const { scroller } = useScrollToTop();
+
   return (
     <Box>
       <Header />
-      <Outlet />
+      <main>
+        <Outlet />
+        {scroller && <ScrollToTop />}
+      </main>
     </Box>
   );
 };

@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "name": "Reversello",
+    "mainImage": "https://i.ibb.co/jP6WNfb1/Screenshot-2025-02-05-021601.png",
+    "images": [
+      "https://i.ibb.co/jvS6ytJf/Welcome.png",
+      "https://i.ibb.co/NgH2y0Dy/Auctions.png",
+      "https://i.ibb.co/DgrC0TYj/Dashboard-Profile-Dark.png",
+      "https://i.ibb.co/kst4Knp2/Live-auction-dark.png",
+      "https://i.ibb.co/0V9C7gZV/Settings-appearance-dark.png",
+      "https://i.ibb.co/q3QkWV1W/Auction-Seller-dark.jpg",
+      "https://i.ibb.co/BVrZNnPL/Create-new-auction.png",
+      "https://i.ibb.co/tpCb6dj4/Transactions-Seller-dark.png"
+    ],
+    "tools": [
+      "Next",
+      "TypeScript",
+      "Tanstack",
+      "Sockets",
+      "React Hook Forms",
+      "Material UI",
+      "Framer"
+    ],
+    "shortDescription": "Traditional auction models often lead to inflated prices, where buyers struggle to find competitive deals. For businesses and consumers, it’s challenging to secure the best value when prices keep rising, reducing the opportunity for cost savings.",
+    "longDescription": "Reversello revolutionizes the auction experience by using a reverse bidding model. Sellers bid lower and lower, competing for the buyer’s business, ensuring that buyers get the most affordable and advantageous deals. The platform streamlines this process, creating a win-win for both buyers and sellers.",
+    "url": "https://reverse-auction-kappa.vercel.app/",
+    "service": "Development",
+    "client": "Making Science Sweeft",
+    "timeLine": "3 Month",
+    "createdAt": "2024"
+  },
+  {
+    "id": 2,
+    "name": "Skillwill LMS",
+    "mainImage": "https://i.ibb.co/9LryLhZ/Screenshot-2025-02-04-211017.png",
+    "images": [
+      "https://i.ibb.co/zH2QvDwW/Screenshot-2025-02-04-210901.png",
+      "https://i.ibb.co/7xC8DX5X/Screenshot-2025-02-04-211105.png",
+      "https://i.ibb.co/MkHVMXVf/Screenshot-2025-02-04-211142.png",
+      "https://i.ibb.co/cSjtHf0Q/Screenshot-2025-02-04-211205.png",
+      "https://i.ibb.co/G45BY0Gc/Screenshot-2025-02-04-211504.png",
+      "https://i.ibb.co/PGc1FPSw/Screenshot-2025-02-04-211446.png"
+    ],
+    "tools": [
+      "React",
+      "TypeScript",
+      "Casl",
+      "Tanstack",
+      "Router",
+      "React Hook Forms",
+      "Material UI"
+    ],
+    "shortDescription": "Skillwill Neo University’s LMS student portal enhances the learning experience by providing a dynamic platform where students can watch lectures, complete homework tasks, ask ChatGPT questions, track their progress, and upload assignments—all in one place.",
+    "longDescription": "The Skillwill Neo University LMS is a comprehensive student portal designed to support and streamline education. Students can access lectures, submit homework, interact with ChatGPT for learning assistance, track their ratings and progress, and engage in a seamless digital learning experience. The platform fosters an interactive and efficient academic environment, making education more accessible and engaging",
+    "url": "https://www.lms.skillwill.com/",
+    "service": "Development",
+    "client": "Skillwill (MSS)",
+    "timeLine": "2 year",
+    "createdAt": "2023"
+  },
+  {
+    "id": 3,
+    "name": "Sivrce",
+    "mainImage": "https://i.ibb.co/b5LZWK4t/Screenshot-2025-02-04-230536.png",
+    "images": [
+      "https://i.ibb.co/Q70FnPxQ/Screenshot-2025-02-04-215328.png",
+      "https://i.ibb.co/n2b1kXZ/Screenshot-2025-02-04-215359.png",
+      "https://i.ibb.co/C5pQ2KFw/Screenshot-2025-02-04-220153.png",
+      "https://i.ibb.co/JFk4c2cH/Screenshot-2025-02-04-220118.png"
+    ],
+    "tools": [
+      "Next",
+      "TypeScript",
+      "Tanstack",
+      "React Hook Forms",
+      "Swiper",
+      "Material UI",
+      "Framer"
+    ],
+    "shortDescription": "Sivrce.ai is a pioneering platform revolutionizing venue discovery with advanced AI technology. We simplify finding the perfect space—whether it’s a cozy café, a romantic date spot, or a lively party venue—by providing tailored recommendations based on your preferences.",
+    "longDescription": "Sivrce.ai is transforming the way you discover venues with cutting-edge AI technology. Our platform offers a seamless, user-friendly experience that eliminates the hassle of searching for the perfect space. Whether you're looking for a charming café, an intimate date spot, or a lively party venue, our AI-driven recommendations match your preferences effortlessly. Designed to save you time and energy, Sivrce.ai ensures that your ideal location is always just a click away. Experience a smarter way to find venues with us.",
+    "url": "https://www.sivrce.ai",
+    "service": "Development",
+    "client": "Akaki Gakhokidze",
+    "timeLine": "1 year",
+    "createdAt": "2024 / 2025"
+  },
+  {
+    "id": 4,
+    "name": "Harbor",
+    "mainImage": "https://i.ibb.co/YBZMvVB4/Screenshot-2025-02-04-231626.png",
+    "images": [
+      "https://i.ibb.co/DP169r3N/Screenshot-2025-02-04-231734.png",
+      "https://i.ibb.co/FNJC0vF/Screenshot-2025-02-04-231705.png",
+      "https://i.ibb.co/RTSnGGPK/Screenshot-2025-02-04-231652.png"
+    ],
+    "tools": [
+      "React",
+      "TypeScript",
+      "Router",
+      "React Hook Forms",
+      "Email",
+      "Framer"
+    ],
+    "shortDescription": "Harbor is where businesses dock to exchange ideas, forge alliances, and set sail toward mutual success.",
+    "longDescription": "",
+    "url": "https://harbor.ge/",
+    "service": "Development",
+    "client": "Luka Dzneladze",
+    "timeLine": "1 Month",
+    "createdAt": "2025"
+  },
+  {
+    "id": 5,
+    "name": "PSP Pharmacy",
+    "mainImage": "https://i.ibb.co/wryVQtFV/Screenshot-2025-02-04-212000.png",
+    "images": [
+      "https://i.ibb.co/DDSn5GBR/Screenshot-2025-02-04-212111.png",
+      "https://i.ibb.co/dTMh9nq/Screenshot-2025-02-04-212156.png",
+      "https://i.ibb.co/4hXkv3L/Screenshot-2025-02-04-212304.png"
+    ],
+    "tools": [
+      "Next",
+      "TypeScript",
+      "Tanstack",
+      "React Hook Forms",
+      "Tailwind",
+      "Swiper"
+    ],
+    "shortDescription": "Pharmacy PSP is a leading pharmaceutical platform in Georgia, offering a wide range of medicines and healthcare products. Its online store and admin panel streamline purchasing, inventory management, and customer service, ensuring a seamless experience for both buyers and administrators.",
+    "longDescription": "Pharmacy PSP is a comprehensive pharmaceutical platform in Georgia, providing a diverse selection of medicines, health products, and pharmacy-related services. With an intuitive website and a robust admin panel, the platform enables efficient inventory control, smooth order management, and a user-friendly shopping experience. Whether for personal health needs or large-scale pharmaceutical management, PSP ensures accessibility, reliability, and convenience in every transaction.",
+    "url": "https://i.ibb.co/tpCb6dj4/Transactions-Seller-dark.png",
+    "service": "Development",
+    "client": "PSP (MSS)",
+    "timeLine": "9 Month",
+    "createdAt": "2024"
+  },
+  {
+    "id": 6,
+    "name": "Skillwill Web",
+    "mainImage": "https://i.ibb.co/fV2dXfhT/Italy-demo-2.png",
+    "images": [
+      "https://i.ibb.co/wZtd1Ycj/Italy-demo-1.png",
+      "https://i.ibb.co/B2bJRZc8/Courses-Detailed-page.png",
+      "https://i.ibb.co/nsgnwpqp/Courses.png"
+    ],
+    "tools": [
+      "Next",
+      "TypeScript",
+      "Tanstack",
+      "React Hook Forms",
+      "Swiper",
+      "Material UI"
+    ],
+    "shortDescription": "Skillwill is the first and largest digital education hub in Georgia, actively developing the education sector since 2018. Using innovative teaching methods, it fosters the growth of future professionals. Our mission is to help individuals achieve their career goals and strengthen the digital industry through technological education.",
+    "longDescription": "Skillwill was founded to make knowledge accessible, practical, and aligned with the demands of the modern market. In 2024, Skillwill became the first state-accredited online educational institution, a testament to our quality and reliability. Graduates who successfully complete our courses receive certificates recognized by Georgia's National Center for Educational Quality Enhancement and the European Agency for Higher Education and Accreditation (EAHEA).",
+    "url": "https://www.skillwill.ge/",
+    "service": "Development",
+    "client": "Skillwill (MSS)",
+    "timeLine": "2 year",
+    "createdAt": "2023"
+  }
+]
