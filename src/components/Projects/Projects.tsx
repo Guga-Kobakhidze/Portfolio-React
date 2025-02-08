@@ -10,7 +10,7 @@ const Projects = () => {
   const open = () => setSeeMore(true);
   const close = () => setSeeMore(false);
 
-  const projects = data;
+  const projects = seeMore ? data : data.slice(0, 3);
 
   return (
     <Grid2 container px={18} mb={18} id="Projects" position="relative">
@@ -26,7 +26,7 @@ const Projects = () => {
             Projects
           </Typography>
         </Box>
-        {projects.length > 3 && (
+        {data.length > 3 && (
           <Button
             variant="text"
             onClick={seeMore ? close : open}
@@ -36,17 +36,15 @@ const Projects = () => {
           </Button>
         )}
       </Grid2>
-      {projects
-        ?.slice(0, seeMore ? -1 : 3)
-        .map(({ id, name, tools, mainImage }) => (
-          <ProjectCard
-            id={id}
-            key={id}
-            name={name}
-            tools={tools}
-            image={mainImage}
-          />
-        ))}
+      {projects.map(({ id, name, tools, mainImage }) => (
+        <ProjectCard
+          id={id}
+          key={id}
+          name={name}
+          tools={tools}
+          image={mainImage}
+        />
+      ))}
     </Grid2>
   );
 };
